@@ -24,7 +24,7 @@ basicJS.prototype.getInfo = function () {
                 arguments: {
                     ALERT: {
                         type: Scratch.ArgumentType.STRING,
-                        defaultValue: 'Hello, World!'
+                        defaultValue: 'Hello World!'
                     }
                 }
             }
@@ -34,7 +34,7 @@ basicJS.prototype.getInfo = function () {
 
 
 basicJS.prototype.alert = function (args) {
-    alert(args.ALERT);
+    alert(ALERT);
 };
 
 
